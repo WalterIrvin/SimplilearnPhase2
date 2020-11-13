@@ -21,6 +21,9 @@ function submitTest(){
     if (correct >= 8){
         alert("Congrats, you have passed the exam, you now win your prize!");
     }
+    else if (correct < 8){
+        alert("Sorry, you have not passed the exam, you will not win the prize.");
+    }
 }
 
 function getRadioValue(name){
